@@ -1,0 +1,3 @@
+[Window]
+    The EWindow::new() function returns an Arc<Surface<Window>>, However this makes the entire process very confusing and therefore it should be best if it just returned a window.
+    At the current momoent this doesnt seem possible so i'l leave it for later.
