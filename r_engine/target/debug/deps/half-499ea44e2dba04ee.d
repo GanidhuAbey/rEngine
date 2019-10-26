@@ -1,0 +1,12 @@
+C:\Users\ganid\Desktop\r_engine\target\debug\deps\half-499ea44e2dba04ee.rmeta: C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\lib.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\bfloat.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\bfloat\convert.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\binary16.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\binary16\convert.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\slice.rs
+
+C:\Users\ganid\Desktop\r_engine\target\debug\deps\libhalf-499ea44e2dba04ee.rlib: C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\lib.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\bfloat.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\bfloat\convert.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\binary16.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\binary16\convert.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\slice.rs
+
+C:\Users\ganid\Desktop\r_engine\target\debug\deps\half-499ea44e2dba04ee.d: C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\lib.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\bfloat.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\bfloat\convert.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\binary16.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\binary16\convert.rs C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\slice.rs
+
+C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\lib.rs:
+C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\bfloat.rs:
+C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\bfloat\convert.rs:
+C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\binary16.rs:
+C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\binary16\convert.rs:
+C:\Users\ganid\.cargo\registry\src\github.com-1ecc6299db9ec823\half-1.4.0\src\slice.rs:

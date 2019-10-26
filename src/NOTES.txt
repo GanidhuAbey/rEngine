@@ -1,0 +1,57 @@
+[Terms to Learn]
+    Physical Device
+        - (S) specifies the current hardware (GPU) of the computer being used
+
+    Graphics Queue
+        - (NS) a queue that manages the render calls being given to the GPU, multiple queues can be active allowing for multiple draw calls to be completed at once
+    
+    Surface
+        - (NS) defines the area where the GPU can render too
+
+    Device
+        - (NS) A way to specify to vulkan the settings that our window will have
+
+    Image buffer
+        - (S) A space of memory designated to hold the current image being worked on (rendered, changed, etc)
+
+    Swapchain
+        - (NS) A list of image buffers that will eventually be displayed to the user (like pixels i guess)
+    
+    Vertex
+        - (S) A point in a 3d coodinate system
+
+    gl_Position
+        - (S) A global builtin variable for the GLSL lanuage, essential in creating a shader as it stores the location of the current
+            vertex.
+    Layers
+        - (NS) A set of planes that can be drawn on within the window
+    
+    Shaders
+        - (NS) The shader takes in all the inputs of a vertex that is needed to display to the screen (colour, position, etc) and
+            uses it to output the final position of that given vertex.
+
+    Render Pass
+        - (NS) An object that shows where the render output will go
+
+    Graphics Pipeline
+        - (NS) Where we can tell the computer to render to the screen?
+
+    Arc
+        - (NS) A pointer for values on the heap such that when any value is cloned it creats a new pointer that also points
+        to the original data.
+    
+    Samples
+        - (NS) Tells the computer whether or not we're multisampling. multisampling is the proccess of making and image look
+        smoother
+
+[Important for our Engine]
+    Multiple Graphics Queues
+        - Need to have multiple queues to make our draw calls more efficient and our game engine faster
+
+[Stuff to Remember]
+    vulkano::device::DeviceExtensions::supported_by_device()
+        - prob will be good to just plug this in so i don't have to figure out what all of the settings do exactly
+
+[Questiosn]
+    How do you implement a device for multiple queues?
+        - It seems as if it doesn't matter if you input more than one queue into the device

@@ -1,30 +1,11 @@
-//rEngine: a 2D game engine for rust created with "ash", a lightweight wrapper around vulkan.
-use std::sync::Arc;
-
-use vulkano::instance::{Instance};
-use vulkano_win::required_extensions;
-
-mod window;
-
-use crate::window::EWindow;
-
-struct Engine {
-    instance: Arc<Instance>,
-}
-impl Engine {
-    fn new() -> Engine {
-        Engine {
-            instance: {
-                let extensions = required_extensions();
-
-                Instance::new(None, &extensions, None).unwrap()
-            }
-        }
-    }
-}
+use r_engine::window;
+use r_engine::event::GameEvent;
+use r_engine::event;
 
 fn main() {
-    let engine = Engine::new();
-    let surface = EWindow::new(engine.instance);
-    let _window = surface.window();
+    let event_manager = event::ManageEvents::new();
+    let window = window::EWindow::new(&event_manager);
+
+    let current_event = event::ManageEvents::request_event(event_manager.event_loop);
+    println!("this line should be unreadable");
 }
