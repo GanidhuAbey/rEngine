@@ -1,10 +1,3 @@
-extern crate sdl2;
-extern crate gl;
-
-use sdl2::video::WindowBuilder;
-use sdl2::event::Event;
-
-
 
 use r_engine::window_fn;
 use r_engine::event::GameEvent;

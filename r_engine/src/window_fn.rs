@@ -1,4 +1,3 @@
-use crate::render;
 use crate::event;
 
 use sdl2::video::Window;
@@ -35,7 +34,7 @@ impl GameWindow {
             500,
         ).opengl().build().unwrap();
     
-        let mut event_pump = sdl.event_pump().unwrap();
+        let event_pump = sdl.event_pump().unwrap();
 
         let gl_context = window.gl_create_context().unwrap();
         let _gl = gl::load_with(|s| video_subsystem.gl_get_proc_address(s) as *const std::os::raw::c_void);
