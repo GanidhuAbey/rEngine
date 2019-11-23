@@ -3,6 +3,7 @@ use crate::event;
 
 use sdl2::video::Window;
 use sdl2::video::WindowBuilder;
+use sdl2::video::GLContext;
 use sdl2::VideoSubsystem;
 use sdl2::EventPump;
 use sdl2::Sdl;
@@ -15,6 +16,7 @@ pub struct GameWindow {
     pub video_subsystem: VideoSubsystem,
     pub event_pump: EventPump,
     pub sdl: Sdl,
+    pub gl_context: GLContext,
 }
 
 impl GameWindow {
@@ -34,12 +36,21 @@ impl GameWindow {
         ).opengl().build().unwrap();
     
         let mut event_pump = sdl.event_pump().unwrap();
+
+        let gl_context = window.gl_create_context().unwrap();
+        let _gl = gl::load_with(|s| video_subsystem.gl_get_proc_address(s) as *const std::os::raw::c_void);
+        
+        unsafe {
+            gl::Viewport(0, 0, 500, 500);
+            gl::ClearColor(0.3, 0.3, 0.5, 1.0);
+        };
     
         GameWindow {
             window,
             video_subsystem,
             event_pump,
-            sdl
+            sdl,
+            gl_context
         }
     
     }
