@@ -1,4 +1,3 @@
-
 use r_engine::window_fn;
 use r_engine::event::GameEvent;
 use r_engine::draw;
@@ -16,7 +15,7 @@ fn main() {
             }
             _ => {},
         }
-        draw::triangle();
+        draw::triangle([0.5, 0.0, 0.0]);
 
         sdl.window.gl_swap_window();
     }

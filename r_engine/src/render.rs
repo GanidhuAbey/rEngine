@@ -3,7 +3,7 @@ use std;
 use std::ffi::{CString, CStr};
 
 pub struct Program {
-    id: gl::types::GLuint,
+    pub id: gl::types::GLuint,
 }
 
 impl Program {
